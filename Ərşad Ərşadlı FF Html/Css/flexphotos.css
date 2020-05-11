@@ -1,0 +1,268 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	
+
+
+}
+.clrdiv
+{
+	color: transparent;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ffa500d4;;
+}
+
+.flex-container div {
+  background-image: url(../Photos/sc1.jpg);
+  width: 300px;
+  margin: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 457px;
+  font-size: 30px;
+
+}
+
+
+
+.basliq
+{
+	margin-top: 17px;
+	margin-left: 17px;
+	transition: 0.3s
+}
+.basliq2
+{
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.basliq:hover
+{
+	
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+header{
+	width: 100%;
+
+}
+@keyframes head{
+	 0%   { left:-500px; top:0px;}
+	 100% { left:0%; top:0px;}
+}
+.header{
+	width: 96%;
+	height: 70px;
+	animation-name: head;
+	animation-duration: 1s;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 7px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px black;
+	background-color: white;
+	border-radius: 10px;
+	position:fixed;
+	top: 0px;
+
+}
+header .logo{
+	width: 23%;
+	height: 100%;
+	padding-bottom: 1px;
+	float:left;
+	transition: 0.3s
+
+}
+.logo basliq{
+	width: 100%;
+	height: 100%;
+    transition: 0.3s
+	border-radius:10px;
+}
+.logo:hover
+{
+	background-color: #ffa500d4;
+}
+.navbar{
+	float: left;
+	width: 75%;
+	line-height: 70px;
+	height: 100%;
+
+}
+nav{
+	padding-left: 150px
+}
+ul a li{
+	list-style-type: none;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	color: black;
+	width: 150px;
+	text-align: center;
+	transition: 0.3s
+}
+ul a li:hover{
+	background-color: #ffa500d4;
+}
+ul a{
+	text-decoration: none;
+}
+
+
+.main .enterabout{
+	width: 100%;
+	height: 250px;
+}
+.enterabout {
+	padding-top: 100px
+}
+main .main{
+	background-image: linear-gradient( #ffa500d4, #f0eeee);
+	background-color:;
+	height:98vh;
+	padding-top: 100px
+}
+
+main .main h1{
+	color: #100f0dc6;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 3em;
+	text-align: center;
+
+
+}
+main h1 .welcome{
+	display: block;
+}
+main h1 .web{
+	background-color: #100f0dc6;
+	display: block;
+	color: #ffa500d4;
+	font-size: 3rem
+}
+
+@keyframes example{ 
+ from {background-color: #ffa500d4 ;}
+}
+
+.b2{
+	left: 95%;
+    animation-name: example;
+    animation-duration: 4s;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 10px;
+   	background-color: gray;
+}
+.allrow{
+	width: 100%;
+	text-align: center;
+	min-height: 0px;
+	margin-bottom: 50px
+}
+.allrow .part{
+	width:100%;
+	height: 100%;
+	padding-top: 0px;
+	float: left;
+}
+.allrow  h2{
+	font-size: 30px;
+	color:black;
+	margin-top: -80px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px;
+}
+
+.part .location{
+	width: 80%;
+	height: 160px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	background-color: lightgray;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px black
+}
+.location .logos{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 40px;
+}
+.location .alls{
+	width:360px;
+	height: 100%;
+	margin: 0px auto
+}
+.logos img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%
+}
+.location .info{
+	float: left;
+	padding-left: 100px;
+	text-align: center;
+}
+.info p{
+	margin-top: 20px;
+	color: gray
+}
+.part .logo{
+	width: 80px;
+	padding: 10px;
+	border-radius:50%;
+	height: 80px;
+	float: left;
+}
+.allrow2{
+	width: 100%;
+	padding: 150px;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	min-height: 400px;
+	margin-bottom: 50px
+}
+.allrow2 .h2 h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px
+
+}
+.allrow2 .h2{
+	height: 10%;
+	margin-bottom: 0px
+}
+.allrow2 .in{
+	width: 100%;
+	height: 90%;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: lightgray;
+	border-radius: 10px
+}
+.allrow2 .in input{
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 4px;
+	outline: 0;
+	height: 40px;
+	border: 0;
+	padding: 10px;
+	display: block;
+}
+
